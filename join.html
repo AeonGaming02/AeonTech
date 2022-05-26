@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <title>Aeon Tech | Home</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Aeon Tech</h1>
+        <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="support.html">Support</a>
+        <a href="join.html" class="active">Join</a>
+        </div>
+    </header>
+    <br>
+    <hr>
+    <h1 style="text-align: center;">JOIN US TODAY</h1>
+    <form action="mailto:joinapplications@aeontech.com">
+        <label for="first name">
+        First Name <input type="text"class="first name" required>
+        </label>    
+        <br>
+        <label for="last name">
+        Last Name <input type="text" class="lastname" required>
+        </label>
+        <br>
+
+        Any Work Expirence? 
+        <input type="radio" name="experience" value="YES" id="1" required>
+        <label for="1">YES</label>
+        <input type="radio" name="experience" value="NO" id="2">
+        <label for="2">NO</label>
+        <br>
+        <br>
+        <br>
+        Select The Languages That You Know: <br> <br>
+        <input type="checkbox" id="HTML">
+        <label for="HTML">HTML</label><br>
+        <input type="checkbox" id="CSS">
+        <label for="CSS">CSS</label><br>
+        <input type="checkbox" id="JavaScript">
+        <label for="JavaScript">JavaScript</label><br>
+        <input type="checkbox" id="Python">
+        <label for="Python">Python</label><br>
+        <input type="checkbox" id="Java">
+        <label for="Java">Java</label><br>
+        <input type="checkbox" id="MySql">
+        <label for="MySql">MySql</label><br>
+        <br>
+        <br>
+        Date Of Birth <input type="date" required> <br>
+        <br>
+        Select a Work type <br>
+        <br>
+        <input type="radio" id="a" name="work" required>
+        <label for="a">ONLINE[Work From Home]</label>
+        <input type="radio" name="work" id="b">
+        <label for="b">OFFLINE[Work From Office]</label>
+        <br>
+        <br>
+        <button type="submit">SUBMIT</button>
+        <button type="reset">RESET FORM</button>
+    </form>
+</body>
+</html>
